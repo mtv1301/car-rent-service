@@ -1,6 +1,6 @@
 ## **Taxi Service Application**
 
-###**General info**
+### General info
 
 This project is a simple realization of "taxi service" system. User can sign up as a driver. Driver can see and manage information about available cars.
 The project is N-tier application with:
@@ -10,7 +10,7 @@ The project is N-tier application with:
 * Controller level for handling HTTP requests.
 * Presentation level for user interaction with the application.
 
-###**Features provided by the application for registered users**
+### Features provided by the application for registered users
 
 1. Login. If wrong credentials provided, error message will be shown.
 2. Create new car, driver, manufacturer.
@@ -24,7 +24,7 @@ The project is N-tier application with:
 10. Show list of all car's manufacturers with information about each manufacturer.
 11. Delete any manufacturer from the list.
 
-###**Technologies**
+### Technologies
 
 In project these technologies have been used:
 * Java 11
@@ -34,7 +34,7 @@ In project these technologies have been used:
 * JSTL
 * JDBC
 
-###**Setup**
+### Setup
 
 There are few steps to deploy this project:
 
