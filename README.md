@@ -1,8 +1,8 @@
-## **Taxi Service Application**
+## **Car Rent Service**
 
 ### General info
 
-This project is a simple realization of "taxi service" system. User can sign up as a driver. Driver can see and manage information about available cars.
+This project is a simple realization of "car rent service" system. User can sign up as a driver. Driver can see and manage information about available cars.
 The project is N-tier application with:
 
 * DAO layer for interaction with DB.
@@ -44,6 +44,6 @@ There are few steps to deploy this project:
 4. Clone it using one of the "Code" options, which is more suitable for you
 5. In resources directory you can find init_db.sql file. Use it to initialize you database
 6. Add some data to DB
-7. Go to the ConnectionUtil class located in src/main/java/taxi/util and add your url to DB, login, password and JDBC driver there.
+7. Go to the ConnectionUtil class located in src/main/java/com/rentcar/util and add your url to DB, login, password and JDBC driver there.
 8. Configure your Tomcat. (P.S. Your application context needs to be as "/")
-9. Run this project using Tomcat's local server# taxi-service-project
+9. Run this project using Tomcat's local server
