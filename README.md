@@ -24,6 +24,7 @@ The project is N-tier application with:
 10. Show list of all car's manufacturers with information about each manufacturer.
 11. Delete any manufacturer from the list.
 
+
 ### Technologies
 
 In project these technologies have been used:
@@ -47,3 +48,14 @@ There are few steps to deploy this project:
 7. Go to the ConnectionUtil class located in src/main/java/com/rentcar/util and add your url to DB, login, password and JDBC driver there.
 8. Configure your Tomcat. (P.S. Your application context needs to be as "/")
 9. Run this project using Tomcat's local server
+
+### Screenshots
+
+#### Login page:
+![Login page](images/login_page.png)
+
+#### Choose menu page
+![Choose menu](images/choose_menu_page.png)
+
+#### See all cars page
+![See all cars page](images/see_all_cars_page.png)
